@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- <div class="head">
+        <h1>Bill Split</h1>
+    </div> -->
+
+    <div class="main">
+        <div class="container1">
+
+            <div class="Bill-div">
+                <h2>Bill</h2>
+                <div class="Bill-div-2">
+                    <span>₹</span>
+                    <input type="number" id="Bill">
+                </div>
+
+            </div>
+
+            <div class="Tip-div">
+                <h2>Select Tip</h2>
+                <div class="btn-tip">
+                    <button class="BtnTip" disabled>5&#37;</button>
+                    <button class="BtnTip" disabled>10%</button>
+                    <button class="BtnTip" disabled>15%</button>
+                    <button class="BtnTip" disabled>25%</button>
+                    <button class="BtnTip" disabled>50%</button>
+                    <button class="BtnTip" disabled>75%</button>
+
+                </div>
+                <input type="number" placeholder="Custom Tip" id="CustomTip" class="inp" disabled>
+            </div>
+
+            <div class="people">
+                <h2>Number of People</h2>
+                <input type="number" placeholder="No of People" id="People" class="inp" disabled>
+            </div>
+
+            <button id="btnBill" disabled>Generate Bill</button>
+
+        </div>
+
+
+        <div class="container2">
+             <div class="output-main">
+                <div>
+                    <p>Tip amount</p>
+                    <span id="tip-output"></span>
+                </div>
+    
+                <div>
+                    <p>Total</p>
+                    <span id="total-output"></span>
+                </div>
+    
+                <div>
+                    <p>Each Person Bill</p>
+                    <span id="split-output"></span>
+                </div>
+             </div>
+
+            <button class="reset" disabled>Reset</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
